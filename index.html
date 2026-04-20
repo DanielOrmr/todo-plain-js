@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>  
+     <title>ToDo</title>
+        <link rel="stylesheet" href="style.css">
+    </head> 
+    <style>
+        .greeting{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+        .b{
+            background: linear-gradient(to right, #4aadea 0%, #7cea57 100%);
+        }
+        /* .container{
+            background-color: rgb(14, 253, 157);
+            width: 500px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        } */
+        .task-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .btn{
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+    <body class = "b">
+        <div>
+            <div>
+            <h1 class="greeting">Hi! What are we doing today?</h1>
+            </div>
+            <div>
+                <div class = "task-container">
+
+                    <h2>To Do</h2>
+                    <div class="Card" > 
+                        <div class="container" id="ToDoList"> 
+                            <p id="taskText"></p>  
+                        </div> 
+                    </div>
+                    <div>
+                        <button class = "btn" id="addToDo-button">Add</button>
+                        
+                    </div>
+                </div>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+    </body>
+
+</html>
