@@ -1,0 +1,14 @@
+name: Cheese
+
+on: 
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  deploy-cheese-checker:
+    runs-on: ubuntu latest
+
+    steps:
+      - name: Deploy Cheese 
+        run: Print "Gouda"
