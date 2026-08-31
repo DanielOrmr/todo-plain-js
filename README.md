@@ -5,18 +5,4 @@ Tuesday release
 wednesday release
 thursday release
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Friday pull-request job test
